@@ -61,7 +61,6 @@
       <groupId>org.springframework</groupId>
       <artifactId>spring-test</artifactId>
       <version>3.2.12.RELEASE</version>
-      <scope>test</scope>
     </dependency>
 
     <!-- Apache Commons Collections -->

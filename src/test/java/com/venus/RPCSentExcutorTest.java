@@ -1,7 +1,7 @@
 package com.venus;
 
-import com.netty.NettyRPC.rpcclient.RPCSendExcutor;
-import com.netty.NettyRPC.zk.ServiceDiscovery;
+import com.venus.rpcclient.RPCSendExcutor;
+import com.venus.zk.ServiceDiscovery;
 import org.junit.Test;
 
 public class RPCSentExcutorTest {

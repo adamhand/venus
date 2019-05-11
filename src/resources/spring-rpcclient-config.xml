@@ -7,13 +7,13 @@
     <context:property-placeholder location="classpath:config.properties"/>
 
     <!--配置zookeeper服务器发现端-->
-    <bean id="serviceDiscovery" class="com.netty.NettyRPC.zk.ServiceDiscovery">
+    <bean id="serviceDiscovery" class="com.venus.zk.ServiceDiscovery">
         <constructor-arg name="zkServerAddress" value="${zk.server.address}"/>
         <constructor-arg name="path" value="${zk.root.path}"/>
         <constructor-arg name="sessionTimeout" value="${zk.sessiontimeout}"/>
     </bean>
 
-    <bean id="rpcSendExcutor" class="com.netty.NettyRPC.rpcclient.RPCSendExcutor">
+    <bean id="rpcSendExcutor" class="com.venus.rpcclient.RPCSendExcutor">
         <constructor-arg name="serviceDiscovery" ref="serviceDiscovery"/>
         <!--<property name="serviceDiscovery" ref="serviceDiscovery"/>-->
     </bean>

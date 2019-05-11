@@ -1,6 +1,6 @@
 package com.venus;
 
-import com.netty.NettyRPC.zk.ServiceRegister;
+import com.venus.zk.ServiceRegister;
 import org.junit.Test;
 
 public class ServiceRegisterTest {

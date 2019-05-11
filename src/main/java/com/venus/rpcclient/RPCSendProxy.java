@@ -1,7 +1,7 @@
 package com.venus.rpcclient;
 
-import com.netty.NettyRPC.common.RPCRequest;
-import com.netty.NettyRPC.common.RPCResponse;
+import com.venus.common.RPCRequest;
+import com.venus.common.RPCResponse;
 import org.springframework.cglib.proxy.InvocationHandler;
 
 import java.lang.reflect.Method;

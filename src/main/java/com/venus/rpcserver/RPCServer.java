@@ -1,7 +1,7 @@
 package com.venus.rpcserver;
 
-import com.netty.NettyRPC.common.*;
-import com.netty.NettyRPC.zk.ServiceRegister;
+import com.venus.common.*;
+import com.venus.zk.ServiceRegister;
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelFuture;
 import io.netty.channel.ChannelInitializer;

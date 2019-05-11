@@ -1,9 +1,9 @@
 package com.venus.rpcclient;
 
-import com.netty.NettyRPC.common.RPCDecoder;
-import com.netty.NettyRPC.common.RPCEncoder;
-import com.netty.NettyRPC.common.RPCRequest;
-import com.netty.NettyRPC.common.RPCResponse;
+import com.venus.common.RPCDecoder;
+import com.venus.common.RPCEncoder;
+import com.venus.common.RPCRequest;
+import com.venus.common.RPCResponse;
 import io.netty.bootstrap.Bootstrap;
 import io.netty.channel.*;
 import io.netty.channel.socket.SocketChannel;

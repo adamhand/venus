@@ -1,6 +1,6 @@
 package com.venus.rpcclient;
 
-import com.netty.NettyRPC.zk.ServiceDiscovery;
+import com.venus.zk.ServiceDiscovery;
 import org.springframework.cglib.proxy.Proxy;
 
 public class RPCSendExcutor {

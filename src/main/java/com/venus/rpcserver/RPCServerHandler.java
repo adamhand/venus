@@ -1,7 +1,7 @@
 package com.venus.rpcserver;
 
-import com.netty.NettyRPC.common.RPCRequest;
-import com.netty.NettyRPC.common.RPCResponse;
+import com.venus.common.RPCRequest;
+import com.venus.common.RPCResponse;
 import io.netty.channel.ChannelFutureListener;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.SimpleChannelInboundHandler;

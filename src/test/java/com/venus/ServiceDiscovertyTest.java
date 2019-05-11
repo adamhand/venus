@@ -1,6 +1,6 @@
 package com.venus;
 
-import com.netty.NettyRPC.zk.ServiceDiscovery;
+import com.venus.zk.ServiceDiscovery;
 import org.junit.Test;
 
 public class ServiceDiscovertyTest {

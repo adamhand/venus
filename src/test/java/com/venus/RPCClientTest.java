@@ -1,8 +1,8 @@
 package com.venus;
 
-import com.netty.NettyRPC.rpcclient.RPCParallelRequestThread;
-import com.netty.NettyRPC.rpcclient.RPCSendExcutor;
-import com.netty.NettyRPC.utils.CostTimeWatcher;
+import com.venus.rpcclient.RPCParallelRequestThread;
+import com.venus.rpcclient.RPCSendExcutor;
+import com.venus.utils.CostTimeWatcher;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

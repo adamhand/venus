@@ -1,6 +1,7 @@
 package com.venus.rpcclient;
 
-import com.netty.NettyRPC.bean.Hello;
+
+import com.venus.bean.Hello;
 
 import java.util.concurrent.CountDownLatch;
 
